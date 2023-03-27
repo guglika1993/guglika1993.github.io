@@ -1,0 +1,27 @@
+span{
+    color: red;
+}
+p{
+    color: red;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form{
+   
+    display:grid;
+    grid-template-columns: 250px 100px;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+    justify-content: space-around;
+    width: 400px;
+}
+
+#button{
+    align-self: start;
+}
